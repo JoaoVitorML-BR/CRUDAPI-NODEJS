@@ -1,0 +1,27 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Lapizeira Vermelha",
+    "price": 7.85
+}
+ 
+// pega/lista todos os produtos criados
+###
+GET http://localhost:4002/products
+
+// pega o produto pelo ID
+###
+GET http://localhost:4002/products/ac6b101e-68c7-406a-80ba-b6b2bcb770bc
+//Alterandoo o produto pelo ID do mesmo
+###
+PUT http://localhost:4002/products/c9a88a05-155e-42c4-aaa8-9360c398f894
+content-type: application/json
+
+{
+    "name": "Caneta Preta da tampa laranja",
+    "price": 5.79
+}
+
+###
+DELETE http://localhost:4002/products/b57e04ea-abef-44f4-9df1-6281dc8fb7d6

@@ -5,7 +5,7 @@
 
 - esse é a minha primeira API com Node.js onde ela faz o famoso CRUD.
 - Essa API eu não fiz só, entretanto, irei modificar algumas coisas nela aos poucos, no momento apenas fiz de acordo com o Video da Rocketseat no Youtube.
-- Link: <a href="https://www.youtube.com/watch?v=fm4_EuCsQwg&list=LL&index=2&t=2948s"></a>
+- Link: <a href="https://www.youtube.com/watch?v=fm4_EuCsQwg&list=LL&index=2&t=2948s">COMEÇANDO COM NODE.JS EM 2022 - ROCKETSEAT</a>
 - no Link acima você poderá fazer o mesmo, ficando assim de melhor entendimento o que cada linha faz, e é claro como preparar o ambiente, pois antes você precisará instalar por exemplo o NODE.JS e o npm.
 
 ## Bastante aprendizado

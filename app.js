@@ -83,7 +83,7 @@ app.delete("/products/:id", (req, res) => {
 
 // func cria a pasta products.json, converte a products em um json e adiciona os "products" na pasta, se der algum erro ele ira cair no if, se não no else.
 function productFile(){
-    fs.writeFile("products.json", JSON.stringify(products), (err) => {
+    fs.writeFile("products.json", JSON.stringify(products, null, 2), (err) => {
         if (err){
             console.log(err);
         }else{

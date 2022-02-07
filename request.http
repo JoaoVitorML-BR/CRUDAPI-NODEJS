@@ -2,8 +2,8 @@ POST http://localhost:4002/products
 content-type: application/json
 
 {
-    "name": "Lapizeira Vermelha",
-    "price": 7.85
+    "name": "Lapizeira Lilas",
+    "price": 6
 }
  
 // pega/lista todos os produtos criados
